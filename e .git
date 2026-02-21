@@ -1,0 +1,29 @@
+[33mcommit c1373013b3c87a110c5c531647969b32b44e05ef[m
+Author: Giuseppe <83048916+DistantNemesis@users.noreply.github.com>
+Date:   Mon Nov 3 18:26:35 2025 -0500
+
+    Moved README.md
+
+[33mcommit c90ccb5a742243702a31535301bd6d86b8788193[m
+Author: Giuseppe D'Orazio <doraziog@hotmail.com>
+Date:   Sat Oct 11 22:09:42 2025 -0400
+
+    Changed gitignore
+
+[33mcommit 492133e311c69cbab08a96679d316b832c92590c[m
+Author: rdeol7 <rdeol7@my.yorku.ca>
+Date:   Sat Oct 11 16:27:25 2025 -0400
+
+    Untrack .env file
+
+[33mcommit 4b829ad5ed59fcfbfb469c2640b0d1e9ba3915cc[m
+Author: rdeol7 <rdeol7@my.yorku.ca>
+Date:   Sat Oct 11 16:18:01 2025 -0400
+
+    Update README.md
+
+[33mcommit 53495ec29149e17bbfa5b9c100a0da9c059339da[m
+Author: rdeol7 <rdeol7@my.yorku.ca>
+Date:   Sat Oct 11 02:44:35 2025 -0400
+
+    Update .env

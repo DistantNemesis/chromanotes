@@ -1,0 +1,17 @@
+The user can change the application's background theme through the Sidebar. Selecting a theme updates the overall styling of the interface,   
+including the header, sidebar, notes list, and modal components.
+Theme selection is handled in React state, and the chosen theme applies dynamic Tailwind classes to the layout.   
+This allows the entire UI to immediately switch between light, dark, or pastel modes. The theme enhances readability and personalization without affecting   
+note content or data stored in the backend.  
+
+Clicking the archive icon on a note toggles its archived status. Archived notes no longer appear in the main notes list   
+but can still be viewed by selecting the "Archived Notes" option in the Sidebar.  
+When a note is archived, it automatically becomes unpinned to prevent inconsistencies in the pinned notes section.   
+The NotesList component only displays archived notes when the archived filter is active. Clicking the archive icon again restores the note to the regular notes list.  
+
+The user can set a reminder when creating or editing a note in the NoteForm component. Selecting the "Set Reminder" checkbox reveals date and time inputs,   
+which are converted into an ISO String and sent to the backend with the rest of the note data.
+When the reminder time is reached, the backend emits a Socket.IO event. The frontend listens for this event in HomePage.jsx and   
+displays a pop-up notification containing the note’s title, reminder time, and message.  
+A reminder icon also appears on notes that have future reminders, indicating that a notification is scheduled.  
+Clicking the edit button allows the user to modify or remove the reminder as needed.  
