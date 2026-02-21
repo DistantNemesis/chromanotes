@@ -20,7 +20,7 @@ ChromaNotes is a **colorful, intuitive web-based note-taking app** built with th
 - **Frontend**: React.js, HTML5, CSS3, JavaScript  
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
-- **Other**: Mongoose, Axios, JWT (optional for auth)  
+- **Other**: Mongoose, Axios, 
 
 ---
 
