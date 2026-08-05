@@ -2,6 +2,8 @@
 
 ChromaNotes is a **colorful, intuitive web-based note-taking app** built with the **MERN stack**. Organize your ideas, tasks, and reminders with vibrant, color-coded notes that make staying productive both easy and fun.  
 
+![Dashboard](./doc/images/ChromaNotesHomepage.png)
+
 ---
 
 ## Features ✨
@@ -12,6 +14,8 @@ ChromaNotes is a **colorful, intuitive web-based note-taking app** built with th
 - **Search & Filter**: Quickly find notes by title, content, or color.  
 - **Secure Backend**: Powered by **MongoDB**, **Express**, and **Node.js** for reliable storage.  
 - **RESTful API**: Smooth communication between frontend and backend.  
+
+![NewNotePage](./doc/images/NewNotePage.png)
 
 ---
 
