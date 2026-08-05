@@ -33,46 +33,28 @@ ChromaNotes is a **colorful, intuitive web-based note-taking app** built with th
 1. **Clone the repository**  
 
 ```bash
-git clone https://github.com/your-username/chromanotes.git
+git clone https://github.com/DistantNemesis/chromanotes.git
 cd chromanotes
 ```
 
-2. **Install backend dependencies**
+2. **Install dependencies**
 
 ```bash
-cd backend
-npm install
-```
-3. **Install frontend dependencies**
-
-```bash
-cd frontend
 npm install
 ```
 
-4. **Set up environment variables**
+3. **Set up environment variables**
 
-Create a .env file in the backend/src folder with:
+Create a .env file in the backend folder with:
 
 ```bash
 MONGO_URI=your_mongodb_connection_string
-PORT=5000
 ```
 
-5. **Run the app**
-
-Start the backend:
+4. **Run the app**
 
 ```bash
-cd backend/src
-node server.js
-```
-
-Star the frontend:
-
-```bash
-cd frontend
-npm run start
+npm run dev
 ```
 
 The app should now be running at http://localhost:5173
