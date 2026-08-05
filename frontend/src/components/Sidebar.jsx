@@ -6,7 +6,7 @@ import { MdEdit } from "react-icons/md";
 import { FaTag } from "react-icons/fa";
 import { ArchiveBoxArrowDownIcon } from "@heroicons/react/24/outline";
 
-function Sidebar({showPinnedOnly, setShowPinnedOnly, tags, showTagOnly, setShowTagOnly, showEditTagsForm, setShowEditTagsForm, showArchivedOnly, setShowArchivedOnly, theme, onThemeChange}) {
+function Sidebar({showPinnedOnly, setShowPinnedOnly, tags, showAddEditNoteForm, showTagOnly, setShowTagOnly, showEditTagsForm, setShowEditTagsForm, showArchivedOnly, setShowArchivedOnly, theme, onThemeChange}) {
     const sidebarThemeStyles ={
         light: "bg-gray-200 text-gray-900", 
         dark: "bg-gray-600 text-white",   
@@ -30,7 +30,7 @@ function Sidebar({showPinnedOnly, setShowPinnedOnly, tags, showTagOnly, setShowT
                         <ArchiveBoxArrowDownIcon className={`w-5 h-5 ${theme == "dark" ?  "text-white" : "text-gray-700"}`} /> Archived
                     </button>
 
-                <button className={`flex items-center gap-2 px-3 py-1 ${showEditTagsForm ? "bg-gray-200" : "bg-transparent"} mt-4 hover:bg-gray-300 cursor-pointer rounded`} onClick={() => setShowEditTagsForm(!showEditTagsForm)}>
+                <button className={`flex items-center gap-2 px-3 py-1 ${showEditTagsForm ? "bg-gray-200" : "bg-transparent"} mt-4 hover:bg-gray-300 cursor-pointer rounded`} onClick={() => !showAddEditNoteForm && setShowEditTagsForm(!showEditTagsForm)}>
                     <MdEdit className="w-5 h-5" /> Edit Tags
                 </button>
 

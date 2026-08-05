@@ -1,0 +1,10 @@
+{
+  "name": "project-chromanotes",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^10.0.4"
+  }
+}

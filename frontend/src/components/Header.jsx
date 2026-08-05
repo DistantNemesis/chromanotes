@@ -11,7 +11,7 @@ function Header({ onAddNote, currentTheme }) {
     }
     return (
         <header className={`fixed top-0 left-0 right-0 z-20 flex justify-between ${themeStyles[currentTheme]}`}>
-            <h1 className="ml-52 font-semibold text-2xl">ChromaNotes</h1>
+            <h1 className="ml-52 font-semibold text-3xl">ChromaNotes</h1>
             <button className="bg-blue-500 text-white px-4 py-2 rounded" onClick={onAddNote}> Add Note </button>
         </header>
     );

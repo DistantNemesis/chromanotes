@@ -434,7 +434,7 @@ function HomePage() {
     return (
         <div className={`${getThemeClasses()} min-h-screen w-full`}>
             <Header onAddNote={handleAddNoteButtonClick} currentTheme={theme} />
-            <Sidebar showPinnedOnly={showPinnedOnly} setShowPinnedOnly={setShowPinnedOnly} tags={tags} showTagOnly={showTagOnly} 
+            <Sidebar showPinnedOnly={showPinnedOnly} setShowPinnedOnly={setShowPinnedOnly} tags={tags} showAddEditNoteForm={showAddNoteForm || showEditNoteForm} showTagOnly={showTagOnly} 
             setShowTagOnly={setShowTagOnly} showEditTagsForm={showEditTagsForm} setShowEditTagsForm={setShowEditTagsForm} showArchivedOnly={showArchivedOnly} setShowArchivedOnly={setShowArchivedOnly} theme={theme} onThemeChange={handleThemeChange}/>
 
             {!showAddNoteForm && !showEditNoteForm &&

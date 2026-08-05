@@ -113,7 +113,7 @@ function NoteForm({purpose, onSubmit, note, noteTitle, noteContent, noteColour, 
     };
     return (
         <div className="min-h-[90vh] flex items-center text-black **:text-black">
-            <div className="relative md:w-106 mx-auto active:none" style={{backgroundColor: colour}}>
+            <div className="relative md:w-106 mx-auto p-[10px] active:none" style={{backgroundColor: colour}}>
                     <button className="absolute top-2 right-3 text-gray-400 text-2xl font-bold hover:text-black" id="closeModal" onClick={handleBackButton} >
                         &times;
                     </button>
